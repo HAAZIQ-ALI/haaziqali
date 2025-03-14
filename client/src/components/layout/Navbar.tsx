@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { GradientText } from "@/components/ui/gradient-text";
 import { NAVIGATION_ITEMS } from "@/lib/constants";
 
 export function Navbar() {
@@ -24,7 +23,7 @@ export function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <a href="#" className="text-2xl font-bold">
-            <GradientText>Portfolio</GradientText>
+            Haaziq Ali
           </a>
 
           {/* Desktop Navigation */}

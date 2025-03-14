@@ -20,7 +20,7 @@ export function Interests() {
           </p>
 
           <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            <div className="bg-background/50 border border-border rounded-lg p-6">
+            <div className="bg-background/50 border border-border rounded-lg p-6 hover:border-primary/50 transition-all duration-300 hover:bg-background/70">
               <div className="flex items-center gap-3 mb-4">
                 <Tv className="w-6 h-6" />
                 <h3 className="text-xl font-semibold">Favorite Anime</h3>
@@ -28,20 +28,23 @@ export function Interests() {
               <p className="text-foreground/60 mb-4">Top picks:</p>
               <div className="flex flex-col gap-2">
                 {INTERESTS[0].items.map((anime) => (
-                  <div key={anime} className="bg-background/30 p-2 rounded">
+                  <div 
+                    key={anime} 
+                    className="bg-background/30 p-2 rounded transition-all duration-200 hover:bg-background/40 hover:translate-x-1"
+                  >
                     {anime}
                   </div>
                 ))}
               </div>
             </div>
 
-            <div className="bg-background/50 border border-border rounded-lg p-6">
+            <div className="bg-background/50 border border-border rounded-lg p-6 hover:border-primary/50 transition-all duration-300 hover:bg-background/70">
               <div className="flex items-center gap-3 mb-4">
                 <Book className="w-6 h-6" />
                 <h3 className="text-xl font-semibold">Manga</h3>
               </div>
               <p className="text-foreground/60 mb-4">Currently reading:</p>
-              <div className="bg-background/30 p-2 rounded">
+              <div className="bg-background/30 p-2 rounded transition-all duration-200 hover:bg-background/40 hover:translate-x-1">
                 {INTERESTS[1].currentlyReading}
               </div>
             </div>
