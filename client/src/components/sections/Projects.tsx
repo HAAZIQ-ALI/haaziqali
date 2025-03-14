@@ -18,7 +18,11 @@ export function Projects() {
             Check back soon to see what I'm building!
           </p>
 
-          <div className="bg-background/50 border border-border rounded-lg p-6 max-w-3xl mx-auto">
+          <div 
+            className="bg-background/50 border border-border rounded-lg p-6 max-w-3xl mx-auto
+                     transition-all duration-300 ease-in-out hover:scale-[1.02] hover:border-primary/50 
+                     hover:bg-background/70 cursor-pointer"
+          >
             <div className="flex items-center gap-2 mb-2">
               <code className="text-lg font-semibold">&lt;/&gt;</code>
               <span className="text-lg font-semibold">Coming Soon</span>
