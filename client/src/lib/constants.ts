@@ -85,14 +85,3 @@ export const PROJECTS = [
     link: "https://github.com",
   },
 ];
-
-export const QUOTES = [
-  {
-    text: "i think, therefore i overthink",
-    author: "me"
-  },
-  {
-    text: "THEEE ONEE PIECE IS REALLLLLL",
-    author: "me"
-  }
-];
