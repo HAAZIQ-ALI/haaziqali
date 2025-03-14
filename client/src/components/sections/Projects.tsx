@@ -19,7 +19,10 @@ export function Projects() {
           </p>
 
           <div className="bg-background/50 border border-border rounded-lg p-6 max-w-3xl mx-auto">
-            <code className="text-lg font-semibold mb-2 block">Coming Soon</code>
+            <div className="flex items-center gap-2 mb-2">
+              <code className="text-lg font-semibold">&lt;/&gt;</code>
+              <span className="text-lg font-semibold">Coming Soon</span>
+            </div>
             <p className="text-foreground/60">
               I'm currently working on exciting projects that showcase my skills in Python, AI/ML, and game development. Stay tuned!
             </p>
